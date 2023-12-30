@@ -53,7 +53,7 @@ a:visited {
   color: var(--white);
 }
 
-.links {
+#links {
   width: 100vw;
   height: min-content;
   display: flex;
@@ -64,14 +64,14 @@ a:visited {
   margin: 20px 0px;
 }
 
-.link_box {
+#link_box {
   background: #0000008e;
   width: 40%;
   border-radius: var(--radius);
   transition: width 0.2s ease-in-out;
 }
 
-.link_box .link {
+#link_box #link {
   display: flex;
   padding: 10px 10px;
   width: 100%;
@@ -80,19 +80,19 @@ a:visited {
   align-items: center;
 }
 
-.link_box .link h3 {
+#link_box #link h3 {
   letter-spacing: 2px;
 }
 
-.link_box .link p {
+#link_box #link p {
   font-size: 100%;
 }
 
-.link_box .link img {
+#link_box #link img {
   width: 40px;
   height: 40px;
 }
 
-.link_box:hover {
+#link_box:hover {
   width: calc(40% + 2%);
 }
